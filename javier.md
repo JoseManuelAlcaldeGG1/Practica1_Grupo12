@@ -16,6 +16,22 @@ git reset --hard <id_commit>
 4. **Ignorar archivos en el repositorio:**
 `gitignore`
 
+##Comando básicos VI
+
+1. **Examinar el contenido de un commit:**
+ ~~~
+ git ls-tree master
+ git ls-tree master^^^
+ git ls-tree master~3
+ ~~~
+
+2. **Log en una línea:**
+`git log --oneline`
+
+3. **Log con los tres últimos commits en una línea:**
+`git log --oneline -3`
+
+4. **Para más opciones consultar documentación de git.**
 
 
 
