@@ -16,3 +16,21 @@
 
 5. **Listado de la configuracion:**
 `git config --list`
+
+
+## Comando basicos I
+
+1. **Iniciar repositorio en un directorio:**
+`git init`
+
+2. **Agregar cambios al area de *staging*:**
+`git add`
+
+3. **Validar cambios en el repositorio:**
+`git commit -m "Mensaje"`
+
+4. **Hacer los dos pasos anteriores en uno:**
+`git commit -am "Mensaje"`
+
+5. **Historial de commits:**
+`git log`
