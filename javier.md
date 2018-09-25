@@ -33,5 +33,16 @@ git reset --hard <id_commit>
 
 4. **Para más opciones consultar documentación de git.**
 
+## Comandos básicos VII
+
+1. **Examinar contenido de un commit:**
+`git show <id>`
+
+2. **Comparar un commit con el actual:**
+`git diff <id> nombre_archivo`
+
+3. **Comparar dos commits:**
+`git diff id..id nombre_archivo`
+
 
 
