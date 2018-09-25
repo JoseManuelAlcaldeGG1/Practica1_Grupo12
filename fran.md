@@ -18,7 +18,7 @@
 `git config --list`
 
 
-## Comando basicos I
+## Comandos basicos I
 
 1. **Iniciar repositorio en un directorio:**
 `git init`
@@ -36,7 +36,7 @@
 `git log`
 
 
-#Comando basicos II
+# Comandos basicos II
 
 1. **Ayuda del listado anterior:**
 `git help log`
