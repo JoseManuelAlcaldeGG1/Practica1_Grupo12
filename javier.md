@@ -63,6 +63,24 @@ git reset --hard <id_commit>
 5. **Comparar ramas:**
 `git diff nombre_rama..nombre_rama`
 
+##Comandos Ramas II
 
+1. **Ver ramas idénticas a la actual:**
+`git branch --merged`
+
+2. **Renombrar ramas:**
+`git branch -m nombre_antiguo nombre_nuevo`
+
+3. **Eliminar ramas:**
+~~~
+git branch -d nombre_rama
+git branch -D nombre_rama
+~~~
+
+4. **Integrar ramas a la actual:**
+`git merge nombre_rama`
+
+5. **Resolver conflictos *(se suele hacer manualmente)*:**
+`git merge --abort`
 
 
