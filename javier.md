@@ -16,7 +16,7 @@ git reset --hard <id_commit>
 4. **Ignorar archivos en el repositorio:**
 `gitignore`
 
-##Comando básicos VI
+## Comandos básicos VI
 
 1. **Examinar el contenido de un commit:**
  ~~~
@@ -44,9 +44,9 @@ git reset --hard <id_commit>
 3. **Comparar dos commits:**
 `git diff id..id nombre_archivo`
 
-#Ramas o *Branches*
+# Ramas o *Branches*
 
-##Comandos Ramas I
+## Comandos Ramas I
 
 1. **Ver listado de ramas:**
 `git branch`
@@ -63,7 +63,7 @@ git reset --hard <id_commit>
 5. **Comparar ramas:**
 `git diff nombre_rama..nombre_rama`
 
-##Comandos Ramas II
+## Comandos Ramas II
 
 1. **Ver ramas idénticas a la actual:**
 `git branch --merged`
