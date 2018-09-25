@@ -44,10 +44,27 @@
 1. **Ver branches remotos:**
 `git branch -r`
 
-2. **Ver todos los branches:**
+2. **Ver todos los *branches*:**
 `git branch -a`
 
 3. **Clonar un repositorio remoto:**
 `git clone url`
 
+# Dar seguimiento a todos los *branches*:
+
+* **LOCAL --> REMOTO**
+	* Cambios en el repositorio local.
+	* Commit de los cambios.
+	* Añadir cambios de un repositorio remoto:
+	`git push`
+
+* **REMOTO --> LOCAL**
+	* Sincronización y unión:
+	~~~
+	git fetch origin
+	git merge origin/master
+	~~~
+	* En un solo paso:
+	`git pull`
+	
 
