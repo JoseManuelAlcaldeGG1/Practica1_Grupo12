@@ -34,3 +34,21 @@
 
 5. **Historial de commits:**
 `git log`
+
+
+#Comando basicos II
+
+1. **Ayuda del listado anterior:**
+`git help log`
+
+2. **Listar los 5 commits más recientes:**
+`git log -n 5`
+
+3. **Listar los commits desde una fecha:**
+`git log --since=2018-09-18`
+
+4. **Listar los commits por autor:**
+`git log --author="Francisco"`
+
+5. **Ver cambios en el directorio:**
+`git status`
